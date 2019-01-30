@@ -97,14 +97,18 @@ h4{
   display: none;
 }
 @media screen and (min-width: 786px) {
+  h2 {
+    width: 628px;
+  }
+  h3 {
+    font-size: 1.875rem;
+  }
+
   .sp {
     display: none;
   }
   .pc {
     display: block;
-  }
-  h3 {
-    font-size: 1.875rem;
   }
 }
 
@@ -226,20 +230,6 @@ header .logo img{
 .block_products .btn_r a {
   padding: 8px 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .btn_r {
   max-width: 175px;
   text-align: center;
@@ -315,9 +305,42 @@ header .logo img{
     height: auto;
   }
   .main_ttl p {
-    padding: 70px 30px 120px;
+    padding: 60px 30px 100px;
     font-size: 28px;
   }
+  .main_img .img_box {
+    float: left;
+  }
+  .main_img .img_box.orange {
+    float: right;
+  }
+  .main_img .clear{
+    clear: both;
+  }
+  .main_img .img_box .img_product img {
+    width: 100%;
+  }
+  .main_img .img_box .img_bg{
+    top: -280px;
+    left: -123px;
+  }
+  .main_img .img_box.orange .img_bg{
+    top: -170px;
+    right: -150px;
+  }
+  .main_img .img_box .img_bg img{
+    width: 695px;
+  }
+  .main_img .img_box.orange .img_bg img{
+    width: 689px;
+  }
+
+
+
+
+
+
+
   .inner_block {
       overflow: hidden;
   }
