@@ -86,6 +86,14 @@ h2{
 h2 img{
   width: 100%;
 }
+h3{
+  font-size: 1.31250rem;
+  margin: 30px 0;
+  text-align: center;
+
+}
+h4{
+}
 @media screen and (min-width: 786px) {
 }
 
@@ -182,6 +190,7 @@ header .logo img{
 }
 .btn_orange {
   background: #f27e41;
+  margin: 20px auto 45px;
 }
 .block_recipe img {
   width: 100%;
@@ -192,11 +201,18 @@ header .logo img{
 .block_recipe.peach {
   background: #ffeeee;
 }
-.block_recipe .inner_block {
+.inner_block {
   padding: 0 30px;
+}
+.inner_block img {
+  width: 100%;
+}
+.block_recipe.peach .btn_blue:nth-of-type(1) {
+  margin-bottom: 45px;
 }
 .block_recipe .inner_block dl {
   overflow: hidden;
+  margin-bottom: 45px;
 }
 .block_recipe .inner_block dt {
   float: left;
@@ -205,10 +221,16 @@ header .logo img{
 }
 .block_recipe .inner_block dd {
   float: left;
-  width: 70%;
+  width: 75%;
+  /*font-size: 0.9375rem;*/
+  font-size: 0.9rem;
+
 }
 .shadow {
-  height: 30px;
+  height: 100px;
+}
+.shadow.w_p {
+  background: linear-gradient(180deg, #fff, #ffeeee);
 }
 .shadow.p_o {
   background: linear-gradient(180deg, #ffeeee, #fffae7);
