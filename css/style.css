@@ -209,7 +209,7 @@ header .logo img{
 .inner_block img {
   max-width: 100%;
 }
-.block_recipe.peach .btn_blue:nth-of-type(1) {
+.block_recipe.peach .block_left {
   margin-bottom: 45px;
 }
 .block_recipe .inner_block dl {
