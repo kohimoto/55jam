@@ -195,7 +195,7 @@ header .logo img{
   font-size: 0.9375rem;
 }
 .shadow {
-  height: 30px;
+  height: 100px;
 }
 .shadow.w_p {
   background: linear-gradient(180deg, #fff, #ffeeee);
