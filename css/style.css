@@ -57,7 +57,7 @@ input, select {
 * common
 * ======================================================= */
 body {
-  font-family:fot-tsukuardgothic-std,'Yu Gothic',Yu Gothic,sans-serif;
+  font-family: fot-tsukuardgothic-std,'Yu Gothic',Yu Gothic,sans-serif;
   font-size: 16px;
   line-height: 1.6;
   color: #4880cc;
@@ -93,9 +93,6 @@ h1{
 h2{
 }
 h3{
-  font-size: 1.31250rem;
-  margin: 30px 0;
-  text-align: center;
 }
 h4{
 }
@@ -195,7 +192,6 @@ header .logo img{
 }
 .btn_orange {
   background: #f27e41;
-  margin: 20px auto 45px;
 }
 .block_recipe img {
   width: 100%;
@@ -206,15 +202,11 @@ header .logo img{
 .block_recipe.peach {
   background: #ffeeee;
 }
-.block_recipe.peach .btn_blue:nth-of-type(1) {
-  margin-bottom: 45px;
-}
-.inner_block {
+.block_recipe .inner_block {
   padding: 0 30px;
 }
 .block_recipe .inner_block dl {
   overflow: hidden;
-  margin-bottom: 45px;
 }
 .block_recipe .inner_block dt {
   float: left;
@@ -223,24 +215,16 @@ header .logo img{
 }
 .block_recipe .inner_block dd {
   float: left;
-  width: 75%;
-  /*font-size: 0.9375rem;*/
-  font-size: 0.9rem;
+  width: 70%;
 }
 .shadow {
-  height: 100px;
-}
-.shadow.w_p {
-  background: linear-gradient(180deg, #fff, #ffeeee);
+  height: 30px;
 }
 .shadow.p_o {
   background: linear-gradient(180deg, #ffeeee, #fffae7);
 }
 .shadow.o_w {
   background: linear-gradient(180deg, #fffae7, #fff);
-}
-.shadow img {
-  width: 100%;
 }
 /* =======================================================
 * footer
