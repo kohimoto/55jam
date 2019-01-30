@@ -79,18 +79,12 @@ a:hover::after {
   text-align: right;
   font-family: 'Libre Baskerville', serif;
 }
-a.arrow {
-  font-size: 0.875em;
-}
-.content{
+h2{
+  width: 320px;
   margin: 0 auto;
 }
-.content.art{
-  padding: 0 6em;
-}
-h1{
-}
-h2{
+h2 img{
+  width: 100%;
 }
 h3{
   font-size: 1.31250rem;
