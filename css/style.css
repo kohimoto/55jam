@@ -241,6 +241,21 @@ header .logo img{
   background: linear-gradient(180deg, #fffae7, #fff);
 }
 @media screen and (min-width: 786px) {
+  .inner_block {
+      overflow: hidden;
+  }
+  .inner_block .block_left {
+      float: left;
+      width: 50%;
+  }
+  .inner_block .block_right {
+      float: left;
+      width: 50%;
+  }
+  .block_recipe .inner_block dl {
+    margin-bottom: 0;
+    padding-bottom: 90px;
+  }
 }
 /* =======================================================
 * footer
