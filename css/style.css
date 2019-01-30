@@ -134,8 +134,20 @@ header {
 .block_recipe.orange {
   background: #fffae7;
 }
-.inner_block {
+.block_recipe .inner_block {
   padding: 0 30px;
+}
+.block_recipe .inner_block dl {
+  overflow: hidden;
+}
+.block_recipe .inner_block dt {
+  float: left;
+  width: 15%;
+  padding-right: 30px;
+}
+.block_recipe .inner_block dd {
+  float: left;
+  width: 70%;
 }
 
 /* =======================================================
