@@ -310,6 +310,7 @@ header .logo img{
   }
   .main_img .img_box {
     float: left;
+    width: 50%;
   }
   .main_img .img_box.orange {
     float: right;
@@ -319,7 +320,7 @@ header .logo img{
     clear: both;
   }
   .main_img .img_box .img_product img {
-    width: 100%;
+    width: 96%;
   }
   .main_img .img_box .img_bg{
     top: -280px;
