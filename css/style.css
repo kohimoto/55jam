@@ -174,8 +174,13 @@ header .logo img{
   width: 70%;
 }
 .shadow {
-  background: linear-gradient(180deg, #ffeeee, #fffae7);
   height: 30px;
+}
+.shadow.p_o {
+  background: linear-gradient(180deg, #ffeeee, #fffae7);
+}
+.shadow.o_w {
+  background: linear-gradient(180deg, #fffae7, #fff);
 }
 /* =======================================================
 * footer
