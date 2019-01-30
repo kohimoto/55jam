@@ -109,8 +109,9 @@ header .logo {
 header .logo img{
   width: 100%;
 }
-@media screen and (min-width: 786px) {
-  header {
+@media screen and (min-width: 768px) {
+  header .logo {
+      width: 199px;
   }
 }
 /* =====================================================
@@ -291,6 +292,11 @@ header .logo img{
   background: linear-gradient(180deg, #fffae7, #fff);
 }
 @media screen and (min-width: 768px) {
+
+  .main_ttl h1 {
+    width: 545px;
+    height: auto;
+}
   .inner_block {
       overflow: hidden;
   }
