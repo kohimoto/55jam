@@ -137,6 +137,19 @@ header .logo img{
   max-width: 786px;
   margin: 0 auto;
 }
+.main_img .img_box{
+  position: relative;
+}
+.main_img .img_box .img_product{
+  z-index: 2;
+}
+.main_img .img_box .img_bg{
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: 0;
+}
+
 
 .btn_r {
   max-width: 175px;
