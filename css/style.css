@@ -161,6 +161,9 @@ header .logo img{
 .block_recipe.orange {
   background: #fffae7;
 }
+.block_recipe.peach {
+  background: #ffeeee;
+}
 .block_recipe .inner_block {
   padding: 0 30px;
 }
@@ -176,7 +179,15 @@ header .logo img{
   float: left;
   width: 70%;
 }
-
+.shadow {
+  height: 30px;
+}
+.shadow.p_o {
+  background: linear-gradient(180deg, #ffeeee, #fffae7);
+}
+.shadow.o_w {
+  background: linear-gradient(180deg, #fffae7, #fff);
+}
 /* =======================================================
 * footer
 * ======================================================= */
