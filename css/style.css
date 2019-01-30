@@ -371,19 +371,22 @@ header .logo img{
     position: relative;
     width: 90%;
     margin: 0 auto;
+    /*min-height: 100px;*/
   }
   .block_recipe .inner_block dt {
     width: 8%;
   }
   .block_recipe .inner_block dd {
     font-size: 1.875rem;
-    width: 92%;
+    width: 80%;
+/*
     position: absolute;
     top: 25%;
     left: 50%;
     -ms-transform: translate(-42%,-50%);
     -webkit-transform: translate(-42%,-50%);
     transform: translate(-42%,-50%);
+    */
   }
   .block_recipe.peach dl dd br {
     display: none;
