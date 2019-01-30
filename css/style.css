@@ -101,9 +101,11 @@ h4{
     width: 628px;
   }
   h3 {
-    font-size: 1.875rem;
+    font-size: 30px;
   }
-
+  h4 {
+    font-size: 36px;
+  }
   .sp {
     display: none;
   }
@@ -313,6 +315,7 @@ header .logo img{
   }
   .main_img .img_box.orange {
     float: right;
+    padding-bottom: 200px;
   }
   .main_img .clear{
     clear: both;
@@ -334,12 +337,21 @@ header .logo img{
   .main_img .img_box.orange .img_bg img{
     width: 689px;
   }
-
-
-
-
-
-
+  .block_products .products_box .products_box_img {
+    width: 18%;
+  }
+  .block_products .products_box .products_box_txt {
+      width: calc(82% - 80px);
+      padding-left: 80px;
+  }
+  .block_products .products_box .products_box_txt p {
+      font-size: 26px;
+      padding-bottom: 20px;
+  }
+  .block_products .btn_r {
+      max-width: 240px;
+      font-size: 24px;
+  }
 
   .inner_block {
       overflow: hidden;
