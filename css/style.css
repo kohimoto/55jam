@@ -240,6 +240,8 @@ header .logo img{
 .shadow.o_w {
   background: linear-gradient(180deg, #fffae7, #fff);
 }
+@media screen and (min-width: 786px) {
+}
 /* =======================================================
 * footer
 * ======================================================= */
