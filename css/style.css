@@ -93,6 +93,7 @@ h1{
 h2{
 }
 h3{
+  font-size: 1.31250rem;
 }
 h4{
 }
@@ -177,10 +178,14 @@ header .logo img{
 }
 .block_recipe .inner_block dd {
   float: left;
-  width: 70%;
+  width: 72%;
+  font-size: 0.9375rem;
 }
 .shadow {
   height: 30px;
+}
+.shadow.w_p {
+  background: linear-gradient(180deg, #fff, #ffeeee);
 }
 .shadow.p_o {
   background: linear-gradient(180deg, #ffeeee, #fffae7);
