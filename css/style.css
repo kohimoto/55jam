@@ -100,6 +100,9 @@ h4{
   h2 {
     width: 628px;
   }
+  h3 {
+    font-size: 30px;
+  }
   h4 {
     font-size: 36px;
   }
@@ -109,7 +112,6 @@ h4{
   .pc {
     display: block;
   }
-
 }
 
 /* =====================================================
@@ -368,17 +370,21 @@ header .logo img{
     margin-bottom: 0;
     padding-bottom: 90px;
     position: relative;
+    width: 90%;
+    margin: 0 auto;
   }
   .block_recipe .inner_block dt {
     width: 8%;
   }
   .block_recipe .inner_block dd {
+    font-size: 1.875rem;
+    width: 92%;
     position: absolute;
     top: 25%;
     left: 50%;
-    -ms-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
+    -ms-transform: translate(-42%,-50%);
+    -webkit-transform: translate(-42%,-50%);
+    transform: translate(-42%,-50%);
   }
   .block_recipe.peach dl dd br {
     display: none;
@@ -390,6 +396,10 @@ header .logo img{
   .inner_block .block_right img {
     /*min-height: 284px;*/
     width: auto;
+  }
+  .btn_r {
+    max-width: 300px;
+    font-size: 1.875rem;
   }
 }
 /* =======================================================
