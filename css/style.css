@@ -96,7 +96,6 @@ h3{
 }
 h4{
 }
-
 @media screen and (min-width: 786px) {
 }
 
@@ -112,6 +111,32 @@ header {
 /* =====================================================
 * main
 * ======================================================= */
+.btn_r {
+  max-width: 175px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 100px;
+}
+.btn_r a {
+  color: #fff;
+  display: block;
+  padding: 10px 0;
+}
+.btn_blue {
+  background: #16a6dc;
+}
+.btn_orange {
+  background: #f27e41;
+}
+.block_recipe img {
+  width: 100%;
+}
+.block_recipe.orange {
+  background: #fffae7;
+}
+.inner_block {
+  padding: 0 30px;
+}
 
 /* =======================================================
 * footer
