@@ -266,7 +266,7 @@ header .logo img{
 }
 .inner_block {
   padding: 0 30px;
-  max-width: 786px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 .inner_block img {
@@ -320,15 +320,21 @@ header .logo img{
   }
   .inner_block .block_left {
       float: left;
-      width: 50%;
+      width: 45%;
   }
   .inner_block .block_right {
       float: left;
-      width: 50%;
+      width: 45%;
+      margin-left: 10%;
   }
   .block_recipe .inner_block dl {
     margin-bottom: 0;
     padding-bottom: 90px;
+  }
+  .inner_block .block_left img,
+  .inner_block .block_right img {
+    /*min-height: 284px;*/
+    width: auto;
   }
 }
 /* =======================================================
