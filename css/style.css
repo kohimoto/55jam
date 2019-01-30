@@ -138,6 +138,9 @@ header {
 .block_recipe.orange {
   background: #fffae7;
 }
+.block_recipe.peach {
+  background: #ffeeee;
+}
 .block_recipe .inner_block {
   padding: 0 30px;
 }
