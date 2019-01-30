@@ -312,6 +312,24 @@ header .logo img{
   .block_recipe .inner_block dl {
     margin-bottom: 0;
     padding-bottom: 90px;
+    position: relative;
+  }
+  .block_recipe .inner_block dt {
+    width: 8%;
+  }
+  .block_recipe .inner_block dd {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
+  .block_recipe.peach dl dd br {
+    display: none;
+  }
+  .block_recipe.orange dl dd br:nth-child(1) {
+    display: none;
   }
   .inner_block .block_left img,
   .inner_block .block_right img {
