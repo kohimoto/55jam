@@ -173,7 +173,10 @@ header .logo img{
   float: left;
   width: 70%;
 }
-
+.shadow {
+  background: linear-gradient(180deg, #ffeeee, #fffae7);
+  height: 30px;
+}
 /* =======================================================
 * footer
 * ======================================================= */
